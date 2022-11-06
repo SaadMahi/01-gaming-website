@@ -1,0 +1,164 @@
+body {
+  background-color: black;
+}
+
+.menu-bar {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0% auto;
+}
+
+nav {
+  background: #ee122a;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 15px;
+  display: flex;
+}
+
+nav a {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: #fff;
+}
+
+nav a:hover {
+  background-color: black;
+}
+
+a.yt {
+  background: url(images/ytBn.png) no-repeat center;
+  background-size: 100%;
+}
+
+.ins {
+  background: url(images/264066759002212.png) no-repeat center;
+  background-size: 100%;
+}
+
+.social a {
+  text-indent: -10000px;
+}
+
+.social {
+  flex: 1 1 0;
+}
+
+.social {
+  max-width: 130px;
+}
+
+.ins {
+  margin-right: 20px;
+  width: 20px;
+}
+
+.yt {
+  width: 20px;
+}
+
+ul {
+  color: #fff;
+  font-family: Arial;
+}
+
+ol {
+  background: #fff;
+  width: 12%;
+  text-align: left;
+}
+
+.top {
+  margin-top: -50px;
+}
+
+p {
+  color: #fff;
+  line-height: 1.4em;
+  font-family: arial;
+}
+
+h1 {
+  color: #fff;
+  padding: 20px;
+  font-size: 40px;
+  background: #555;
+  margin: 100px 0px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: #fff;
+  font-family: ariel;
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+h4 {
+  background: rgb(14, 231, 14);
+  width: 100%;
+  color: #fff;
+  font-size: x-large;
+}
+
+h3 {
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+  margin-top: 220px;
+  background: #ee122a;
+  text-decoration: underline;
+  width: 100%;
+  position: relative;
+  bottom: 110px;
+  z-index: -1;
+}
+
+.description p {
+  position: relative;
+  left: 10px;
+  margin: 175px;
+  z-index: -1;
+}
+
+hr {
+  width: 100%;
+}
+
+img {
+  float: left;
+}
+
+.description {
+  margin: 100px;
+}
+
+/* Hitman 5 Absolution
+*/
+
+.hitman p {
+  margin-bottom: 100px;
+  margin-top: 100px;
+  position: relative;
+  left: 10px;
+  top: 50px;
+}
+
+.gameplay img {
+  width: 200px;
+  position: relative;
+  left: 80px;
+  bottom: 100px;
+  margin: 10px 30px;
+}
