@@ -2,39 +2,37 @@ body {
   background-color: black;
 }
 
+.head {
+  margin-top: 450px;
+}
+
 .menu-bar {
   width: 100%;
   max-width: 1300px;
   margin: 0% auto;
 }
 
-.poppo{
-  font-family:sans-serif;
+.poppo {
+  font-family: sans-serif;
   font-size: xx-large;
-  color:black;
+  color: black;
   padding: 10px;
   border-radius: 50px;
   text-decoration: underline;
-
-
 }
 
-.gaming{
+.gaming {
   font-family: cursive;
   font-size: x-large;
-  color:#ee122a;
+  color: #ee122a;
   margin-right: 30px;
   background: black;
   padding: 10px;
   border-radius: 20px;
-  
-
 }
 
 nav {
   background: #ee122a;
-  display: flex;
-  justify-content: space-between;
   position: fixed;
   width: 100%;
   top: 0;
@@ -45,7 +43,6 @@ nav ul {
   list-style-type: none;
   padding: 0;
   margin-left: 15px;
-  display: flex;
 }
 
 nav a {
@@ -57,29 +54,30 @@ nav a {
 }
 
 nav a:hover {
-  background-color: black;
+  color: cyan;
 }
 
 a.yt {
-  background: url(images/ytBn.png) no-repeat center;
+  background: url(https://clipart.info/images/ccovers/1590430652red-youtube-logo-png-xl.png) no-repeat center;
   background-size: 100%;
 }
 
 .ins {
-  background: url(images/264066759002212.png) no-repeat center;
+  background: url(https://cdn141.picsart.com/264066759002212.png) no-repeat center;
   background-size: 100%;
+}
+
+.social {
+  max-width: 80px;
+  margin: 0 auto;
+}
+
+.social li {
+  flex: 1 1 0;
 }
 
 .social a {
   text-indent: -10000px;
-}
-
-.social {
-  flex: 1 1 0;
-}
-
-.social {
-  max-width: 130px;
 }
 
 .ins {
@@ -89,27 +87,21 @@ a.yt {
 
 .yt {
   width: 20px;
-}
-
-ul {
-  color: #fff;
-  font-family: Arial;
-}
-
-ol {
-  background: #fff;
-  width: 12%;
-  text-align: left;
-}
-
-.top {
-  margin-top: -50px;
+  margin-right: 20px;
 }
 
 p {
   color: #fff;
   line-height: 1.4em;
   font-family: arial;
+}
+
+.main {
+  display: ;
+}
+
+.social {
+  display: flex;
 }
 
 h1 {
@@ -144,28 +136,20 @@ h3 {
 }
 
 .description p {
- line-height: 35px;
- padding: 20px;
- width: 75%;
-
-  }
+  line-height: 35px;
+  padding: 20px;
+  width: 75%;
+}
 
 hr {
   width: 100%;
 }
 
 img {
- float: left;
+  float: left;
 }
 
-
-/* mobile 
-
-@media screen and (max-width: 1500px){
-*/
-
-/* Hitman 5 Absolution
-*/
+/* Hitman 5 Absolution */
 
 .hitman p {
   line-height: 35px;
@@ -177,6 +161,58 @@ img {
   width: 200px;
   bottom: 100px;
   margin: 10px 30px;
+}
 
-  
+/* Footer Editing */
+
+footer {
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  padding-right: 10px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-family: bold;
+  font-size: large;
+}
+
+footer a:hover {
+  color: cyan;
+}
+
+/* Desktop responsive control */
+@media screen and (min-width: 768px) {
+  nav ul {
+    display: flex;
+  }
+
+  .social {
+    margin: 0 auto;
+  }
+
+  .head {
+    margin-top: 150px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer ul {
+    display: flex;
+  }
+
+  footer li {
+    flex: 1 1 0;
+  }
 }
