@@ -2,6 +2,10 @@ body {
   background-color: black;
 }
 
+.system-requirment {
+  color: #fff;
+}
+
 .head {
   margin-top: 450px;
 }
@@ -58,12 +62,14 @@ nav a:hover {
 }
 
 a.yt {
-  background: url(https://clipart.info/images/ccovers/1590430652red-youtube-logo-png-xl.png) no-repeat center;
+  background: url(https://clipart.info/images/ccovers/1590430652red-youtube-logo-png-xl.png)
+    no-repeat center;
   background-size: 100%;
 }
 
 .ins {
-  background: url(https://cdn141.picsart.com/264066759002212.png) no-repeat center;
+  background: url(https://cdn141.picsart.com/264066759002212.png) no-repeat
+    center;
   background-size: 100%;
 }
 
