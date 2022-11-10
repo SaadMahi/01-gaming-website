@@ -9,18 +9,19 @@ p {
  font-family: Arial, sans-serif;
  font-size: 13px;
  padding-bottom: 12px;
+ line-height: 22.1px;
  text-align: left;
 }
 
 
 .system-requirment {
   color: #fff;
-  color: #fff;
  display: block;
- font-family: Arial;
+ font-family: Arial, sans-serif;
  font-size: 13px;
  padding-bottom: 12px;
  text-align: left;
+ line-height: 22.1px;
 }
 
 #head {
@@ -153,15 +154,6 @@ h3 {
   clear: both;
 }
 
-
-.description{
-  
-  line-height: 30px;
-}
-
-
-
-
 .cover{
   float: left;
   margin-right: 10px;
@@ -182,24 +174,23 @@ h3 {
 
 /* Footer Editing */
 
-footer {
-}
 
 footer ul {
   list-style-type: none;
   padding: 0px;
 }
 
+
 footer a {
+  font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: #fff;
-  padding: 10px;
+  padding-bottom: 12px;
   padding-right: 10px;
   display: block;
+  line-height: 22.1px;
   width: 100%;
   text-align: center;
-  font-family: bold;
-  font-size: large;
 }
 
 footer a:hover {
