@@ -2,12 +2,24 @@ body {
   background-color: black;
 }
 
-.system-requirment {
+
+p {
   color: #fff;
+  line-height: 1.4em;
+  font-family: arial;
+  font-size: larger;
+  text-align: justify;
 }
 
-.head {
+
+.system-requirment {
+  color: #fff;
+  font-size:large;
+}
+
+#head {
   margin-top: 450px;
+  
 }
 
 .menu-bar {
@@ -15,6 +27,7 @@ body {
   max-width: 1300px;
   margin: 0% auto;
 }
+
 
 .poppo {
   font-family: sans-serif;
@@ -41,6 +54,7 @@ nav {
   width: 100%;
   top: 0;
   left: 0;
+  
 }
 
 nav ul {
@@ -48,6 +62,8 @@ nav ul {
   padding: 0;
   margin-left: 15px;
 }
+
+
 
 nav a {
   text-align: center;
@@ -73,14 +89,6 @@ a.yt {
   background-size: 100%;
 }
 
-.social {
-  max-width: 80px;
-  margin: 0 auto;
-}
-
-.social li {
-  flex: 1 1 0;
-}
 
 .social a {
   text-indent: -10000px;
@@ -96,18 +104,16 @@ a.yt {
   margin-right: 20px;
 }
 
-p {
-  color: #fff;
-  line-height: 1.4em;
-  font-family: arial;
-}
 
 .main {
   display: ;
 }
 
 .social {
-  display: flex;
+max-width: 80px;
+margin: 0 auto;
+display: flex;
+flex: 1 1 0;
 }
 
 h1 {
@@ -115,7 +121,6 @@ h1 {
   padding: 20px;
   font-size: 40px;
   background: #555;
-  margin: 100px 0px;
   margin-bottom: 50px;
 }
 
@@ -128,7 +133,7 @@ h2 {
 
 h4 {
   background: rgb(14, 231, 14);
-  width: 100;
+  width: 100%;
   color: #fff;
   font-size: x-large;
   clear: both;
@@ -139,33 +144,33 @@ h3 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: x-large;
   background: #ee122a;
+  clear: both;
 }
 
-.description p {
-  line-height: 35px;
-  padding: 20px;
-  width: 75%;
+
+.description{
+  
+  line-height: 30px;
 }
 
-hr {
-  width: 100%;
-}
 
-img {
+
+
+.cover{
   float: left;
+  margin-right: 10px;
 }
 
-/* Hitman 5 Absolution */
+/* Hitman 5 Absolution 
 
 .hitman p {
   line-height: 35px;
   margin-top: 354px;
   margin-left: 410px;
-}
+}*/
 
 .gameplay img {
   width: 200px;
-  bottom: 100px;
   margin: 10px 30px;
 }
 
@@ -197,17 +202,31 @@ footer a:hover {
 
 /* Desktop responsive control */
 @media screen and (min-width: 768px) {
+ 
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
   nav ul {
     display: flex;
-  }
+   }
 
-  .social {
-    margin: 0 auto;
-  }
+   .social{
+    margin: 0;
+    margin-right: 30px;
+   }
 
-  .head {
-    margin-top: 150px;
-  }
+    #head {
+      margin-top: 150px;
+      margin-bottom: 0;
+      
+    }
+    
+  
+  
 
   footer {
     display: flex;
@@ -221,4 +240,4 @@ footer a:hover {
   footer li {
     flex: 1 1 0;
   }
-}
+
