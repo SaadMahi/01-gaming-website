@@ -5,13 +5,22 @@ body {
 
 p {
   color: #fff;
-  line-height: 1.4em;
-  text-align: justify;
+ display: block;
+ font-family: Arial, sans-serif;
+ font-size: 13px;
+ padding-bottom: 12px;
+ text-align: left;
 }
 
 
 .system-requirment {
   color: #fff;
+  color: #fff;
+ display: block;
+ font-family: Arial;
+ font-size: 13px;
+ padding-bottom: 12px;
+ text-align: left;
 }
 
 #head {
