@@ -1,8 +1,15 @@
 body {
   background-color: black;
+  color: #fff;
+  display: block;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  padding-bottom: 12px;
+  line-height: 22.1px;
+  text-align: left;
 }
 
-
+/*
 p {
   color: #fff;
  display: block;
@@ -12,8 +19,9 @@ p {
  line-height: 22.1px;
  text-align: left;
 }
+*/
 
-
+/*
 .system-requirment {
   color: #fff;
  display: block;
@@ -23,7 +31,7 @@ p {
  text-align: left;
  line-height: 22.1px;
 }
-
+*/
 #head {
   margin-top: 450px;
   
@@ -124,7 +132,6 @@ flex: 1 1 0;
 }
 
 h1 {
-  color: #fff;
   padding: 20px;
   font-size: 40px;
   background: #555;
@@ -132,7 +139,6 @@ h1 {
 }
 
 h2 {
-  color: #fff;
   font-family: ariel;
   font-size: 25px;
   margin-top: 50px;
@@ -141,13 +147,11 @@ h2 {
 h4 {
   background: rgb(14, 231, 14);
   width: 100%;
-  color: #fff;
   font-size: x-large;
   clear: both;
 }
 
 h3 {
-  color: #fff;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: x-large;
   background: #ee122a;
