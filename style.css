@@ -96,6 +96,16 @@ nav a:hover {
   color: black;
 }
 
+nav a:active{
+  color:orange;
+}
+
+
+/*
+nav a:visited{
+  color: purple; 
+}
+*/
 a.yt {
   background: url(https://clipart.info/images/ccovers/1590430652red-youtube-logo-png-xl.png)
     no-repeat center;
